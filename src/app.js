@@ -10,15 +10,17 @@ window.onload = function() {
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
 
-  pronoun.forEach((pronombre) => {
+  pronoun.forEach(pronombre => {
     console.log(pronombre);
   });
 
-  adj.forEach((adjetivo) => {
+  adj.forEach(adjetivo => {
     console.log(adjetivo);
   });
 
-  noun.forEach((NOmbre) => {
+  noun.forEach(NOmbre => {
     console.log(NOmbre);
   });
+
+  
 };
