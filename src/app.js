@@ -9,18 +9,14 @@ window.onload = function() {
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
-
+  let dominio = [".uy", ".es"];
   pronoun.forEach(pronombre => {
-    console.log(pronombre);
+    adj.forEach(adjetivo => {
+      noun.forEach(nombre => {
+        dominio.forEach(dom => {
+          console.log(pronombre + adjetivo + nombre + ".com" + dom);
+        });
+      });
+    });
   });
-
-  adj.forEach(adjetivo => {
-    console.log(adjetivo);
-  });
-
-  noun.forEach(NOmbre => {
-    console.log(NOmbre);
-  });
-
-  
 };
